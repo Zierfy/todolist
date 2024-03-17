@@ -3,8 +3,8 @@
 /*
  * Подключаем классы
  */
-include_once __DIR__ . '/../app/Database.php';
-include_once __DIR__ . '/../app/HumanSettings.php';
+include_once __DIR__ . '/../../Controller/Database.php';
+include_once __DIR__ . '/../../Model/HumanSettings.php';
 
 ?>
 

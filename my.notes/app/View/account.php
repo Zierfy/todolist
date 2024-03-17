@@ -5,9 +5,9 @@
 /*
  * Подключаем классы
  */
-include_once __DIR__ . '/app/Database.php';
-include_once __DIR__ . '/app/Account.php';
-include_once __DIR__ . '/app/Statistic.php';
+include_once __DIR__ . '/../Controller/Database.php';
+include_once __DIR__ . '/../Controller/Account.php';
+include_once __DIR__ . '/../Model/Statistic.php';
 
 ?>
 
@@ -36,7 +36,7 @@ if (empty($_SESSION)) {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Personal account</title>
 
-    <link rel="stylesheet" href="./styles/account.css"
+    <link rel="stylesheet" href="./../../css/account.css"
 
 </head>
 <body>
@@ -128,7 +128,6 @@ if (empty($_SESSION)) {
                 <?php
 
                 $count = 0;
-//                var_dump(mysqli_fetch_all($notes));
 
                 while ($note = mysqli_fetch_array($notes)) {
 
@@ -179,7 +178,7 @@ if (empty($_SESSION)) {
     <div class="textBack">
         <div class="smallImg-back">
             <a href="./todolist.php">
-                <img width="100px" height="100px" class="img-back" src="./photos/back.png">
+                <img width="100px" height="100px" class="img-back" src="./../../images/back.png">
             </a>
         </div>
         <div class="smallText-back">

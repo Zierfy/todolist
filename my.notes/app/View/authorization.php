@@ -5,9 +5,9 @@
 /*
  * Подключаем классы
  */
-include_once __DIR__ . '/app/Database.php';
-include_once __DIR__ . '/app/Authorization.php';
-include_once __DIR__ . '/app/Checks.php';
+include_once __DIR__ . '/../Controller/Database.php';
+include_once __DIR__ . '/../Controller/Authorization.php';
+include_once __DIR__ . '/../Model/Checks.php';
 
 ?>
 
@@ -53,7 +53,7 @@ $authorization->connect->close();
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="./../../css/login.css">
 
     <title>Authorization</title>
 </head>
@@ -65,7 +65,7 @@ $authorization->connect->close();
             Вход в личный кабинет
         </div>
 
-        <form action="authorization.php" method="POST">
+        <form action="./authorization.php" method="POST">
 
             <div class="reg-form">
                 <div class="email-item">
@@ -121,7 +121,7 @@ $authorization->connect->close();
 
         <div class="registration-link">
             <div class="registration-text">
-                <a href="registration.php" class="reg-btn">Зарегистрироваться</a>
+                <a href="./registration.php" class="reg-btn">Зарегистрироваться</a>
             </div>
         </div>
     </div>
@@ -147,7 +147,7 @@ $authorization->connect->close();
     <div class="textBack">
         <div class="smallImg-back">
             <a href="./todolist.php">
-                <img width="100px" height="100px" class="img-back" src="./photos/back.png">
+                <img width="100px" height="100px" class="img-back" src="./../../images/back.png">
             </a>
         </div>
         <div class="smallText-back">

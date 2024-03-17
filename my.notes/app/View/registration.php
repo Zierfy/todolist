@@ -3,9 +3,9 @@
 /*
  * Подключаем классы
  */
-include_once __DIR__ . '/app/Database.php';
-include_once __DIR__ . '/app/Registration.php';
-include_once __DIR__ . '/app/Checks.php';
+include_once __DIR__ . '/../Controller/Database.php';
+include_once __DIR__ . '/../Controller/Registration.php';
+include_once __DIR__ . '/../Model/Checks.php';
 
 ?>
 
@@ -43,7 +43,7 @@ $registration->connect->close();
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="styles/registration.css">
+    <link rel="stylesheet" href="./../../css/registration.css">
 
     <title>Registration</title>
 </head>
@@ -77,8 +77,8 @@ $registration->connect->close();
 <div class="back">
     <div class="textBack">
         <div class="smallImg-back">
-            <a href="authorization.php">
-                <img width="100px" height="100px" class="img-back" src="./photos/back.png">
+            <a href="./authorization.php">
+                <img width="100px" height="100px" class="img-back" src="./../../images/back.png">
             </a>
         </div>
         <div class="smallText-back">

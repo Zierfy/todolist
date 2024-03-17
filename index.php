@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="my.notes/styles/main.css">
+    <link rel="stylesheet" href="./my.notes/css/main.css">
 
     <title>Main page</title>
 </head>
@@ -21,8 +21,8 @@
     <div class="container">
         <div class="card">
             <div class="card-image">
-                <a href="my.notes/todolist.php" class="link">
-                    <img class="card-img" src="my.notes/photos/diery.jpg">
+                <a href="./my.notes/app/View/todolist.php" class="link">
+                    <img class="card-img" src="./my.notes/images/diery.jpg">
                 </a>
             </div>
 

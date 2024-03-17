@@ -3,8 +3,8 @@
 /*
  * Подключаем классы
  */
-include_once __DIR__ . '/app/Database.php';
-include_once __DIR__ . '/app/Story.php';
+include_once __DIR__ . '/../Controller/Database.php';
+include_once __DIR__ . '/../Model/Story.php';
 
 ?>
 
@@ -16,7 +16,7 @@ include_once __DIR__ . '/app/Story.php';
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="styles/story.css">
+    <link rel="stylesheet" href="./../../css/story.css">
 
     <title>Story</title>
 </head>

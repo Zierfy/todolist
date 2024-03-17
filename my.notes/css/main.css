@@ -1,5 +1,5 @@
 body {
-    background-image: url("../photos/mainPage-bg.jpg");
+    background-image: url("./../images/mainPage-bg.jpg");
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;

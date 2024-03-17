@@ -5,7 +5,7 @@ body {
 .header {
     padding-top: 1px;
 
-    background-image: url("./../photos/accountBG.jpg");
+    background-image: url("./../images/accountBG.jpg");
     height: 100vh;
 
     background-size: cover;
@@ -79,7 +79,7 @@ body {
 }
 
 .publications {
-    background-image: url("./../photos/forest.jpg");
+    background-image: url("./../images/forest.jpg");
 
     height: 100vh;
 

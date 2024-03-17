@@ -3,7 +3,7 @@ body {
 }
 
 .todoBG {
-    background-image: url("./../photos/mountains.jpg");
+    background-image: url("./../images/mountains.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -41,7 +41,7 @@ body {
 
 
 .history {
-    background-image: url("./../photos/bg-nature.jpg");
+    background-image: url("./../images/bg-nature.jpg");
     padding-bottom: 200px;
 }
 
@@ -182,7 +182,7 @@ body {
 
 
 .publications {
-    background-image: url("./../photos/field.jpg");
+    background-image: url("./../images/field.jpg");
     height: 100vh;
 }
 

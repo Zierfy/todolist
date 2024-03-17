@@ -11,7 +11,10 @@ class Database
 
     protected function dbConnect(): object
     {
-        $connect = new mysqli('localhost', 'root', '', 'chiter');
+
+        $data = explode("\n", file_get_contents(__DIR__ . './../../../../../database_passwords/todolist_db.txt'));
+
+        $connect = new mysqli(trim($data[0]), trim($data[1]), trim($data[2]), trim($data[3]));
         $connect->set_charset('utf8');
 
         if ($connect->connect_error) {

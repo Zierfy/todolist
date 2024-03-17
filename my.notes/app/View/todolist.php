@@ -5,10 +5,10 @@
 /*
  * Подключаем классы
  */
-include_once __DIR__ . '/app/Database.php';
-include_once __DIR__ . '/app/MyNotes.php';
-include_once __DIR__ . '/app/BestStories.php';
-include_once __DIR__ . '/app/Publications.php';
+include_once __DIR__ . '/../Controller/Database.php';
+include_once __DIR__ . '/../Controller/Publications.php';
+include_once __DIR__ . '/../Model/MyNotes.php';
+include_once __DIR__ . '/../Model/BestStories.php';
 
 ?>
 
@@ -20,7 +20,7 @@ include_once __DIR__ . '/app/Publications.php';
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="styles/todolist.css">
+    <link rel="stylesheet" href="./../../css/todolist.css">
 
     <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
 
@@ -32,13 +32,13 @@ include_once __DIR__ . '/app/Publications.php';
 <div class="static-header">
     <div class="logo">
         <a href="#mainHeader" class="scrollto">
-            <img src="./photos/logo.png" class="logo-img" width="50px" height="50px">
+            <img src="./../../images/logo.png" class="logo-img" width="50px" height="50px">
         </a>
     </div>
 
     <i>
         <div class="nav">
-            <a href="./../index.php" class="linkTo">Главная</a>
+            <a href="./../../../index.php" class="linkTo">Главная</a>
             <a href="./account.php" class="linkTo">Личный кабинет</a>
             <a href="./information.page.php" class="linkTo">Информация</a>
             <a href="./photography.php" class="linkTo">Фотографии</a>
@@ -49,7 +49,7 @@ include_once __DIR__ . '/app/Publications.php';
 
     <div class="telephone">
         <div class="phone-image">
-            <img src="./photos/telephone.png" class="tel-img" width="25px" height="20px">
+            <img src="./../../images/telephone.png" class="tel-img" width="25px" height="20px">
         </div>
 
         <div class="phone-text">
@@ -150,7 +150,7 @@ $bestStories->connect->close();
         <div class="img-items">
             <div class="img-item">
                 <div class="img-image">
-                    <img src="./photos/sambo.jpg" class="sambo">
+                    <img src="./../../images/sambo.jpg" class="sambo">
                 </div>
 
                 <div class="img-text">
@@ -167,7 +167,7 @@ $bestStories->connect->close();
             </div>
             <div class="img-item">
                 <div class="img-image">
-                    <img src="./photos/billiard.jpg" class="billiard">
+                    <img src="./../../images/billiard.jpg" class="billiard">
                 </div>
 
                 <div class="img-text">
@@ -184,7 +184,7 @@ $bestStories->connect->close();
             </div>
             <div class="img-item">
                 <div class="img-image">
-                    <img src="./photos/books.jpg" class="books">
+                    <img src="./../../images/books.jpg" class="books">
                 </div>
 
                 <div class="img-text">

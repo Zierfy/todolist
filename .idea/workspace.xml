@@ -4,7 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="911de2ce-69cd-4b9a-bd4c-952943e1669d" name="Changes" comment="" />
+    <list default="true" id="911de2ce-69cd-4b9a-bd4c-952943e1669d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/actions/add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/actions/delete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/actions/edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/actions/role.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/Account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/Article.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/Authorization.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/BestStories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/Change.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/Checks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/Database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/Human.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/HumanSettings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/MyNotes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/Publications.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/Registration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/Statistic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/app/Story.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/authorization.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/change.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/information.page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/peoplepage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photography.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/accountBG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/bg-nature.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/billiard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/books.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/castle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/diery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/forest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/kungFu-cats.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/mainPage-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/mountains.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/personalAccountImage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/sambo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/photos/telephone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/publication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/registration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/story.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/styles/account.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/styles/action.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/styles/change.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/styles/information.page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/styles/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/styles/photographies.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/styles/registration.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/styles/story.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/styles/todolist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.notes/todolist.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +81,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/git" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/data/bd.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
@@ -88,10 +148,22 @@
       <workItem from="1710321346357" duration="21902000" />
       <workItem from="1710479214820" duration="52599000" />
       <workItem from="1710624930619" duration="313000" />
+      <workItem from="1710666136639" duration="4929000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
