@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+.header {
+    padding-top: 1px;
+
+    background-image: url("./../photos/accountBG.jpg");
+    height: 100vh;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+
+.personalPublications {
+    color: black;
+}
+
+.myPublications {
+    background: linear-gradient(#ffc8ca, #d0de2e);
+
+    font-size: 38px;
+    color: black;
+    font-weight: bold;
+
+    text-align: center;
+
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+
+.textPublications {
+    padding-left: 100px;
+    padding-top: 100px;
+    width: 600px;
+}
+
+.header-publication {
+    background: linear-gradient(#ffa319, #fff318);
+
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+
+    padding-left: 15px;
+}
+
+.text-publication {
+    font-size: 18px;
+
+    background: linear-gradient(#ffa319, #fff318);
+
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.status-publication {
+    background: #c9ff90;
+}
+
+
+
+.buttons {
+    color: yellow;
+    display: flex;
+    justify-content: space-around;
+}
+
+.error {
+    color: #ffe300;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.publications {
+    background-image: url("./../photos/forest.jpg");
+
+    height: 100vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.publications-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistic-container {
+    background: linear-gradient(#ffa319, #fff318);
+    border-radius: 20px;
+
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+
+
+
+.back {
+    background-color: yellow;
+    background-repeat: no-repeat;
+    width: 10%;
+
+    position: sticky;
+    left: 1350px;
+    bottom: 15px;
+
+    border-radius: 20px;
+}
+
+.imageBack {
+    text-align: center;
+}
+
+.smallImg-back {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.smallText-back {
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+}

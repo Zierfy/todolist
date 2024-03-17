@@ -1,0 +1,173 @@
+body {
+    background-image: url("./../photos/kungFu-cats.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.registration {
+    position: absolute;
+    right: 200px;
+    bottom: 400px;
+
+    background: #7331ff;
+    width: 300px;
+
+    margin-left: 15px;
+
+    border-radius: 15px;
+}
+
+.container {
+    margin-left: 15px;
+}
+
+.reg-header {
+    color: #fff30a;
+    font-size: 26px;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.reg-form {
+    padding-bottom: 20px;
+}
+
+
+
+
+.email-item, .password-item, .remember-item {
+    padding-bottom: 15px;
+}
+
+.emailText, .passwordText {
+    display: flex;
+}
+
+.email-text, .password-text {
+    color: white;
+    font-size: 18px;
+}
+
+.email-txt, .password-txt {
+    color: red;
+    font-size: 18px;
+}
+
+
+
+
+.remember-item {
+    color: white;
+    font-size: 16px;
+    display: flex;
+}
+
+.remember-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+    margin-left: 20px;
+}
+
+.remember-text {
+    color: white;
+}
+
+.remember-text-link {
+    text-decoration: underline;
+}
+
+
+
+
+.enter-link {
+    text-align: center;
+
+    padding-left: 80px;
+}
+
+.enter-btn {
+    background: none;
+    border-radius: 20px;
+    width: 104px;
+    color: white;
+    font-size: 20px;
+}
+
+.enter-text {
+    margin-bottom: 15px;
+
+    background-color: #899eff;
+    width: 50%;
+
+    border-radius: 20px;
+}
+
+
+
+
+.registration-link {
+    text-align: center;
+
+    background-color: #00b6ff;
+
+    width: 70%;
+
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.reg-btn {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.login-error {
+
+    color: yellow;
+    font-size: 30px;
+
+    margin-top: 400px;
+    margin-left: 300px;
+
+    text-decoration: underline;
+}
+
+.login-error span {
+    background: red;
+}
+
+.back {
+    background-color: yellow;
+    background-repeat: no-repeat;
+    width: 10%;
+
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+
+    border-radius: 20px;
+}
+
+.imageBack {
+    text-align: center;
+}
+
+.smallImg-back {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.smallText-back {
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+}

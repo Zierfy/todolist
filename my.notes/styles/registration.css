@@ -1,0 +1,40 @@
+body {
+    background-image: url("./../photos/castle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.error-text {
+    color: red;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.back {
+    background-color: yellow;
+    background-repeat: no-repeat;
+    width: 10%;
+
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+
+    border-radius: 20px;
+}
+
+.imageBack {
+    text-align: center;
+}
+
+.smallImg-back {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.smallText-back {
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+}

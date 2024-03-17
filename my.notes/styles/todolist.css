@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+}
+
+.todoBG {
+    background-image: url("./../photos/mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    padding-top: 1px;
+
+    color: white;
+    font-size: 30px;
+}
+
+.smallHeader {
+    color: orange;
+}
+
+.buttons {
+    font-size: 18px;
+    color: white;
+    float:right;
+    width: 300px;
+    height: 90px;
+    margin-right: 10%;
+}
+
+.text {
+    color: yellow;
+    font-weight: bolder;
+    font-style:italic;
+}
+
+
+
+
+
+.history {
+    background-image: url("./../photos/bg-nature.jpg");
+    padding-bottom: 200px;
+}
+
+.textBestHist {
+    font-size: 54px;
+    text-align: center;
+    color: white;
+    padding-bottom: 150px;
+}
+
+.img-item {
+    background-color: white;
+    text-align: center;
+    width: 20%;
+    box-shadow: 0 0 10px
+}
+
+.sambo, .billiard, .books {
+    width: 200px;
+    height: 180px;
+}
+
+.img-text {
+    color: red;
+    font-size: 26px
+}
+
+.img-subtext {
+    color: blue;
+    font-size: 18px;
+}
+
+.img-items {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.img-image {
+    padding-top: 10px;
+}
+
+.img-btn {
+    text-decoration: none;
+    height: 42px;
+    border: none;
+    background: chocolate;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.img-btn:before {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 42px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 5px;
+    transition: all 500ms ease;
+}
+
+.img-btn:hover:before {
+    width: 100%;
+}
+
+.img-button {
+    margin-top: 20px;
+}
+
+.static-header {
+    margin: 0;
+
+    position: sticky;
+    top: 0;
+
+    background: black;
+    border-bottom: 2px solid white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img {
+    margin-left: 10px;
+}
+
+.nav {
+    margin-top: 15px;
+}
+
+.linkTo {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    margin-right: 100px;
+
+    transition: all 800ms ease;
+}
+
+.scrollto {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    transition: all 800ms ease;
+}
+
+.scrollto:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.linkTo:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.phone-text {
+    color: white;
+    font-size: 14px;
+}
+
+.telephone {
+    text-align: center;
+    border-left: 1px solid white;
+}
+
+
+
+
+
+.publications {
+    background-image: url("./../photos/field.jpg");
+    height: 100vh;
+}
+
+.publ-container {
+    color: white;
+}
+
+.lastPublications {
+    position: relative;
+
+    left: 100px;
+
+    background: linear-gradient(0.25turn, gray, orange, yellow);
+    border-radius: 15px;
+
+    padding: 5px 5px 5px 5px;
+    width: 30%;
+}
+
+.linkToPublication {
+    text-decoration: none;
+    color: white;
+
+    transition: all 800ms ease;
+}
+
+.linkToPublication:hover {
+    color: blue;
+}
+
+.header-lastPublications {
+    position: relative;
+
+    top: 100px;
+    left: 800px;
+
+    background: linear-gradient(orange, yellow);
+
+    width: 25%;
+
+    border-radius: 30px;
+}
+
+.header-LP-text {
+    padding: 10px 10px 10px 10px;
+
+    text-align: center;
+
+    font-size: 26px;
+}
+
+.dateFromTo {
+    text-align: center;
+    padding-bottom: 10px;
+
+    font-size: 18px;
+}
+
+
+.titleAndAuthorAndDate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-link {
+    text-decoration: none;
+    color: white;
+
+    transition: all 800ms ease;
+}
+
+.author-link:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.author {
+    border-left: 2px dotted black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title-date {
+    border-left: 2px dotted black;
+    padding-left: 10px;
+}
+
+
+
+
